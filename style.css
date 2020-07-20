@@ -9,6 +9,7 @@ body {
 img {
   width: 400px;
   height: 350px;
+  transition: .3s all ease-in-out;
 }
 
 h2 {
@@ -53,6 +54,11 @@ h2 {
     height: 300px;
     background: azure;
   }
+
+  img {
+    width: 300px;
+    height: 250px;
+  }
   
 }
 
@@ -61,6 +67,11 @@ h2 {
     width: 400px;
     height: 400px;
     background: azure;
+  }
+
+  img {
+    width: 400px;
+    height: 350px;
   }
   
 }
@@ -75,6 +86,10 @@ h2 {
     height: 300px;
     background: azure;
   }
+  img {
+    width: 300px;
+    height: 250px;
+  }
   
 }
 
@@ -83,5 +98,9 @@ h2 {
     width: 400px;
     height: 400px;
     background: azure;
+  }
+  img {
+    width: 400px;
+    height: 350px;
   }
 }
