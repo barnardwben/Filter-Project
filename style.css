@@ -228,6 +228,36 @@ h2 {
 
 
 @media screen and (min-width: 480px) {
+  .about {
+    grid-template-columns: 1fr;
+    height: 170vh;
+    /* justify-items: center; */
+  }
+
+  .squr {
+    position: absolute;
+    border: 8px solid rgba(167, 23, 23, 0.829);
+    width: 375px;
+    height: 275px;
+    transition: .3s all ease-in-out;
+    background-color: rgba(70, 70, 70, 0);
+  }
+  
+  .squr:hover {
+    /* transform: translateX(35px); */
+    transform: translate(37px, 22px);
+    z-index: 2;
+  }
+  
+  
+  .chef {
+    position: relative;
+    top: 30px;
+    left: 45px;
+    width: 375px;
+    height: 275px;
+  }
+
   .img {
     width: 300px;
     height: 300px;
@@ -242,6 +272,37 @@ h2 {
 }
 
 @media screen and (min-width: 680px) {
+  .about {
+    grid-template-columns: 1fr;
+    height: 170vh;
+    justify-items: center;
+  }
+
+  .squr {
+    position: absolute;
+    border: 8px solid rgba(167, 23, 23, 0.829);
+    width: 425px;
+    height: 325px;
+    transition: .3s all ease-in-out;
+    background-color: rgba(70, 70, 70, 0);
+  }
+  
+  .squr:hover {
+    /* transform: translateX(35px); */
+    transform: translate(37px, 22px);
+    z-index: 2;
+  }
+
+  .chef {
+    position: relative;
+    top: 30px;
+    left: 45px;
+    width: 425px;
+    height: 325px;
+  
+  }
+
+
   .img {
     width: 400px;
     height: 400px;
@@ -256,6 +317,56 @@ h2 {
 }
 
 @media screen and (min-width: 980px) {
+  
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  transition: .3s all ease-in-out;
+  /* text-align: center; */
+  /* align-items: center; */
+}
+
+.left-about {
+  grid-column: 1;
+  margin: 85px 120px 20px 120px;
+}
+
+.left-about h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 42px;
+  text-align: left;
+}
+
+.right-about {
+  grid: 2;
+  margin: 95px 20px;
+}
+
+.squr {
+  position: absolute;
+  border: 8px solid rgb(167, 23, 23);
+  width: 425px;
+  height: 325px;
+  transition: .3s all ease-in-out;
+  background-color: rgba(70, 70, 70, 0);
+}
+
+.squr:hover {
+  /* transform: translateX(35px); */
+  transform: translate(37px, 22px);
+  z-index: 2;
+}
+
+
+.chef {
+  position: relative;
+  top: 30px;
+  left: 45px;
+  width: 425px;
+  height: 325px;
+}
+
   .menu {
     grid-template-columns: 1fr 1fr;
   }
@@ -273,6 +384,30 @@ h2 {
 }
 
 @media screen and (min-width: 1180px) {
+  .squr {
+    position: absolute;
+    border: 8px solid rgb(167, 23, 23);
+    width: 500px;
+    height: 396px;
+    transition: .3s all ease-in-out;
+    background-color: rgba(70, 70, 70, 0);
+  }
+  
+  .squr:hover {
+    /* transform: translateX(35px); */
+    transform: translate(37px, 22px);
+    z-index: 2;
+  }
+  
+  
+  .chef {
+    position: relative;
+    top: 30px;
+    left: 45px;
+    width: 500px;
+    height: 400px;
+  }
+
   .img {
     width: 400px;
     height: 400px;
