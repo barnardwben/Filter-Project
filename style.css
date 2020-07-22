@@ -13,14 +13,34 @@ body {
   width: 100%;
   position: fixed;
   z-index: 2;
+  font-family: 'Lobster', cursive;
 }
 
 .header {
   position: relative;
-  top: 85px;
+  /* top: 85px; */
   height: 100vh;
-  background: url('imgs/ctbl.jpg')center/cover no-repeat;
+  background: url('imgs/nbck.jpg')center/cover no-repeat;
+}
 
+.lyr1 {
+  position: relative;
+  /* top: 85px; */
+  height: 100vh;
+  background-color: rgba(70, 70, 70, 0.397);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lyr1 h1 {
+  font-family: 'Caveat', cursive;
+}
+
+.excen {
+  font-family: 'Lobster', cursive;
+  color: rgb(180, 21, 21);
+  font-size: 48px;
 }
 
 img {
@@ -43,8 +63,9 @@ img {
 
 .right-menu a {
   text-decoration: none;
-  color: rgb(173, 15, 15);
-  font-size: 18px;
+  color: rgb(221, 18, 18);
+  font-size: 22px;
+  padding: 10px;
 }
 
 h2 {
