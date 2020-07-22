@@ -57,3 +57,25 @@ function dnrMenu() {
     dnr[i].style.display = 'inline';
   }
 }
+
+const navBtn = document.querySelector('.navBtn');
+
+const rghtMenu = document.querySelector('.right-menu');
+
+navBtn.addEventListener('click', openIt);
+
+function openIt() {
+  let value = rghtMenu.classList.contains('nav-collapse');
+  let value2 = rghtMenu.classList.contains('nav-open');
+  if (!value && !value2) {
+    rghtMenu.classList.add('nav-collapse');
+    rghtMenu.classList.add('nav-open');
+    navBtn.classList.remove('change');
+  }
+  else if (value && value) {
+    rghtMenu.classList.remove('nav-open');
+    rghtMenu.classList.remove('nav-collapse');
+    navBtn.classList.add('change');
+
+  }
+}
