@@ -14,7 +14,7 @@ body {
   background-color: rgb(245, 238, 238);
   width: 100%;
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   font-family: 'Lobster', cursive;
 }
 
@@ -149,12 +149,13 @@ img {
   height: 396px;
   transition: .3s all ease-in-out;
   background-color: rgba(70, 70, 70, 0);
+  z-index: 0;
 }
 
 .squr:hover {
   /* transform: translateX(35px); */
   transform: translate(37px, 22px);
-  z-index: 2;
+  z-index: 0;
 }
 
 
